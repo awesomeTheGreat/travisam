@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<body>
+    <div class="col-md-6 offset-md-3 col-sm-2 offset-sm-2">
+    <br><a style="margin-right:20px;" class="btn btn-info btn-lg" href={% url 'index'%}>Go to Home</a>
+    <a style="margin-left:20px;" class="btn btn-info btn-lg" href={% url 'register'%}>Hasn't registered yet?</a><br><br>
+    <form action="login" method="post">
+    {% csrf_token %}
+    <input class="form-control" type="text" name="username" placeholder="Username" required><br>
+    <input class="form-control" type="password" name="password" placeholder="Password" required><br>
+    <input class="btn btn-success" type="submit" value="Login">
+    </form>
+    {% for msg in messages %}
+        <div class="alert alert-warning">
+        <h3>
+        {{msg}}
+        </h3>
+        </div>
+    </div>
+    {% endfor %}
+
+</body>
+{% endblock %}

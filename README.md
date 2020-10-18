@@ -8,5 +8,3 @@ Learning Django
 5. Migrate(python manage.py migrate), makemigrations and migrate again.
 6. Createsuperuser (python manage.py createsuperuser)
 7. Runserver (python manage.py runserver) [Open your browser and visit 127.0.0.1:8000]
-
-(### conribute to open source ###)

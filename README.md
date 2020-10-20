@@ -4,6 +4,7 @@ Learning Django
 Contributors:
 1. Abishek Kafle
 2. Aashish Bhandari
+3. Neeraj Lamsal
 
 ### Steps to contribute in this project as follows 
 1. Fork the repository.

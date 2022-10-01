@@ -1,5 +1,6 @@
 # Travisam
-Learning Django
+A simple and basic project made with django following the tutorial from Telusko. 
+<b>Not a very good example for beginners to follow.</b>
 
 Contributors:
 1. Abishek Kafle
